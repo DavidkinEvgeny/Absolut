@@ -1,0 +1,117 @@
+.branches {
+    height: 1309px;
+    background: url(./../../img/bg-branches.png) no-repeat;
+    background-size: 1920px;
+    overflow: hidden;
+    h2 {
+        display: none;
+    }
+    &__list {
+        padding: 0;
+        margin: 0;
+        margin-top: 271px;
+        margin-left: 21px;
+        text-align: left;
+        list-style: none;
+        font-size: 37px;
+        font-weight: bold;
+        text-transform: uppercase;
+        > li {
+            position: relative;
+            margin-bottom: 38px;
+            > p {
+                position: absolute;
+                max-width: 840px;
+                top: 24px;
+                left: 70px;
+                font-family: 'Gilroy-SemiBold';
+                font-size: 38px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    @media (max-width:1440px) {
+        background-size: 1440px;
+        height: 863px;
+    }
+    @media (max-width:1280px) {
+        background-size: 1280px;
+        height: 690px;
+        &__list {
+            margin-top: 120px;
+            > li {
+                position: relative;
+                margin-bottom: 48px;
+                > p {
+                    max-width: 484px;
+                    top: 24px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    @media (max-width:1024px) {
+        background-size: 1024px;
+        height: 485px;
+        &__list {
+            margin-top: 37px;
+        }
+    }
+    @media (max-width:720px) {
+        background-size: 720px;
+        height: 431px;
+        &__list {
+            margin-left: -64px;
+            > li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    @media (max-width:640px) {
+        background-size: 640px;
+        height: 323px;
+        &__list {
+            margin-left: 25px;
+            > li {
+                position: relative;
+                margin-bottom: 10px;
+                > p {
+                    font-size: 17px;
+                    margin-left: -40px;
+                }
+            }
+        }
+    }
+    @media (max-width:540px) {
+        background-size: 540px;
+        height: 323px;
+        &__list {
+            margin-left: 8px;
+            > li {
+                margin-bottom: 10px;
+                > p {
+                    font-size: 15px;
+                    margin-left: -50px;
+                }
+            }
+        }
+    }
+    @media (max-width:360px) {
+        background-size: 360px;
+        height: 245px;
+        &__list {
+            margin-left: 25px;
+            max-width: 160px;
+            > li {
+                position: relative;
+                margin-bottom: 10px;
+                > p {
+                    top: 5px;
+                    max-width: 150px;
+                    font-size: 12px;
+                    margin-left: -57px;
+                }
+            }
+        }
+    }
+}

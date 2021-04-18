@@ -1,0 +1,78 @@
+@import './fonts/fonts.scss';
+.App {
+  font-family:'Gilory-Bold';
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1920px;
+  @media (max-width:1440px) {
+    max-width: 1440px;
+  }
+  @media (max-width:1280px) {
+    max-width: 1280px;
+  }
+  @media (max-width:1024px) {
+    max-width: 1024px;
+  }
+  @media (max-width:720px) {
+    max-width: 720px;
+  }
+  @media (max-width:640px) {
+    max-width: 640px;
+  }
+  @media (max-width:480px) {
+    max-width: 480px;
+  }
+  > div {
+    // padding-top: 1px;
+    max-width: 1920px;
+    margin: 0 auto;
+    @media (max-width:1440px) {
+      max-width: 1440px;
+    }
+    @media (max-width:1280px) {
+      max-width: 1280px;
+    }
+    @media (max-width:1024px) {
+      max-width: 1024px;
+    }
+    @media (max-width:720px) {
+      max-width: 720px;
+    }
+    @media (max-width:640px) {
+      max-width: 640px;
+    }
+    @media (max-width:540px) {
+      max-width: 540px;
+    }
+    @media (max-width:360px) {
+      max-width: 360px;
+    }
+  }
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  @media (max-width:1280px) {
+    width: 720px;
+  }
+  @media (max-width:1024px) {
+    width: 640px;
+  }
+  @media (max-width:720px) {
+    width: 480px;
+  }
+  @media (max-width:640px) {
+    width: 460px;
+  }
+  @media (max-width:540px) {
+    width: 360px;
+  }
+  @media (max-width:360px) {
+    width: 230px;
+  }
+}
+p {
+  padding: 0;
+  margin: 0;
+}

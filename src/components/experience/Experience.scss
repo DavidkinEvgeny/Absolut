@@ -1,0 +1,93 @@
+.experience {
+    position: relative;
+    background: url(./../../img/bg-experience.png) no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 1280px;
+    font-size: 42px;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Gilroy-SemiBold';
+    overflow: hidden;
+    h2 {
+        display: none;
+    }
+    p {
+        max-width: 540px;
+        padding-left: 51px;
+        margin-top: 142px;
+        line-height: 1.7;
+        color: #fbfbfc;
+        &:nth-child(3) {
+            margin-top: 71px;
+            letter-spacing: 1.6px;
+            line-height: 1.6;
+            font-size: 45px;
+            color: #ff9b25;
+        }
+    }
+    @media (max-width:1440px) {
+        background-size: 1440px;
+        height: 852px;
+    }
+    @media (max-width:1280px) {
+        background-size: 1280px;
+        height: 682px;
+        font-size: 26px;
+        p {
+            width: 400px;
+            margin-left: 0px;
+            margin-top: 120px;
+            &:nth-child(3) {
+                font-size: 32px;
+            }
+        }
+    }
+    @media (max-width:1024px) {
+        background-size: 1024px;
+        height: 479px;
+        p {
+            &:nth-child(3) {
+                margin-top: 19px;
+            }
+        }
+    }
+    @media (max-width:720px) {
+        background-size: 720px;
+        height: 425px;
+    }
+    @media (max-width:640px) {
+        background-size: 640px;
+        height: 427px;
+        font-size: 22px;
+        p {
+            width: 351px;
+            margin-top: 19px;
+            &:nth-child(3) {
+                margin-top: 19px;
+            }
+        }
+    }
+    @media (max-width:540px) {
+        background-size: 540px;
+        height: 360px;
+        font-size: 12px;
+        p {
+            width: 162px;
+            margin-top: 19px;
+            margin-left: 10px;
+            padding: 0;
+            &:nth-child(3) {
+                margin-top: 19px;
+                font-size: 12px;
+            }
+        }
+    }
+    @media (max-width:360px) {
+        background-size: 360px;
+        height: 240px;
+    }
+}
+
+
